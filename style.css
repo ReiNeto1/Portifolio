@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+body{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.img{
+    width: 250px; 
+    height: auto; 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-left: 30px;
+    color: #fff;
+
+}
+
+p{
+    margin-left: 40px;
+    color: #fff;
+}
+
