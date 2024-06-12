@@ -11,31 +11,35 @@ body {
 .img {
     width: 250px; 
     margin-top: 3px;
-    margin-left: 3px;
+    margin-left: 1px; /* Alterado para 110px */
     border-radius: 50%;
-    position:relative ;
+    position: relative;
 }
 
+
+
+/* Texto */
 h1 {
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
 }
 
 p {
-    margin-left: 40px;
+    margin-left: 70px;
     color: #fff;
     font-family: "Playfair Display", serif;
 }
 
+/* Card */
 .card {
     margin-top: 150px;
-    position: relative; /* Mudança para relative para se alinhar com a imagem */
-    width: 255px; /* Ajustado para se alinhar com a imagem */
-    height: 255px; /* Ajustado para se alinhar com a imagem */
+    margin-left: 60px; 
+    position: relative; 
+    width: 255px; 
+    height: 255px;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -49,6 +53,7 @@ p {
     height: 100%;
 }
 
+/* Cor dos Cards */
 .card span:first-of-type {
     top: 0;
     left: 0;
@@ -79,7 +84,10 @@ p {
     background: linear-gradient(to top, transparent, rgb(212, 0, 255));
     animation: animar4 2s linear infinite;  
     animation-delay: 1s;  
-}@keyframes animar1 {
+}
+
+/* Animação do Card */
+@keyframes animar1 {
     0% {
         transform: translateY(0);
     }
@@ -113,4 +121,47 @@ p {
     100% {
         transform: translateX(-100%);
     }
+}
+
+/* Cor das classes dos ícones */
+.fab.fa-js {
+    color: #ff7c01;
+}
+
+.fas.fa-file-code {
+    color: #32cd32;
+}
+
+.fab.fa-html5 {
+    color: #0070ba;
+}
+
+.fab.fa-js {
+    color: #9400d3;
+}
+
+.fas.fa-desktop{
+    color: #555555;
+}
+
+/* Estilos para a seção "Sobre" */
+
+.about {
+    width: 360px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 0; 
 }
